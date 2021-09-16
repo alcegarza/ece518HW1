@@ -41,6 +41,7 @@ for i in range(0,20):
   start = time.time() #measures seconds
   cache_sha256 = hashlib.sha256(cache).hexdigest()
   end =time.time()
+  print(end, start)
   timming = end - start
   rate = 256/timming #MB/s
   times.append(timming)
