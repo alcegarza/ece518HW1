@@ -67,7 +67,7 @@ for i in range(0,2):
   times.append(timming)
   rates.append(rate)
 
-
+print(times)
 avg_rate = round(mean(rates),3)
 avg_time = round(mean(times),3)
 
