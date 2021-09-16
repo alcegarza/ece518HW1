@@ -41,11 +41,9 @@ for i in range(0,20):
   start = time.time() #measures seconds
   cache_sha256 = hashlib.sha256(cache).hexdigest()
   end =time.time()
-  #print(end - start)
   timming = end - start
   rate = 256/timming #MB/s
   times.append(timming)
-  print(times)
   rates.append(rate)
 
 
@@ -71,7 +69,7 @@ for i in range(0,20):
   rates.append(rate)
 
 print(times)
-avg_rate = round(mean(rates),3)
+avg_rate = round(mean(rates),7)
 avg_time = round(mean(times),3)
 
 print("--------------Performance Validation of SHA-512-------------------------------")
