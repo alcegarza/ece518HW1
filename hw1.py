@@ -37,7 +37,7 @@ cache = bytes(256*1024*1024)
 rates = []
 times = []
 
-for i in range(0,2):
+for i in range(0,20):
   start = time.time() #measures seconds
   cache_sha256 = hashlib.sha256(cache).hexdigest()
   end =time.time()
@@ -58,7 +58,7 @@ cache = bytes(256*1024*1024)
 rates = []
 times = []
 
-for i in range(0,2):
+for i in range(0,20):
   start = time.time() #measures seconds
   cache_sha256 = hashlib.sha512(cache).hexdigest()
   end =time.time()
