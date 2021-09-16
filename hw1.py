@@ -50,8 +50,8 @@ for i in range(0,20):
 
 
 
-avg_rate = round(mean(rates),3)
-avg_time = round(mean(times),3)
+avg_rate = round(mean(rates),7)
+avg_time = round(mean(times),7)
 
 print("--------------Performance Validation of SHA-256-------------------------------")
 print('The average time it takes to process SHA-256 is {} ms. \nThis is an average rate of {} MB/s'.format(avg_time*1000, avg_rate))
