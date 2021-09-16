@@ -48,7 +48,7 @@ for i in range(0,20):
 
 
 
-avg_rate = round(mean(rates),7)
+avg_rate = round(mean(rates),11)
 avg_time = round(mean(times),3)
 
 print("--------------Performance Validation of SHA-256-------------------------------")
@@ -69,7 +69,7 @@ for i in range(0,20):
   rates.append(rate)
 
 print(times)
-avg_rate = round(mean(rates),7)
+avg_rate = round(mean(rates),11)
 avg_time = round(mean(times),3)
 
 print("--------------Performance Validation of SHA-512-------------------------------")
