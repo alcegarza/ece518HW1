@@ -49,8 +49,8 @@ for i in range(0,20):
 
 
 
-avg_rate = round(mean(rates),11)
-avg_time = round(mean(times),3)
+avg_rate = round(mean(rates),3)
+avg_time = round(mean(times),12)
 
 print("--------------Performance Validation of SHA-256-------------------------------")
 print('The average time it takes to process SHA-256 is {} ns. \nThis is an average rate of {} MB/s'.format(avg_time*1000000, avg_rate))
@@ -70,8 +70,8 @@ for i in range(0,20):
   rates.append(rate)
 
 print(times)
-avg_rate = round(mean(rates),11)
-avg_time = round(mean(times),3)
+avg_rate = round(mean(rates),3)
+avg_time = round(mean(times),12)
 
 print("--------------Performance Validation of SHA-512-------------------------------")
 print('The average time it takes to process SHA-512 is {} ns. \nThis is an average rate of {} MB/s'.format(avg_time*1000000, avg_rate))
