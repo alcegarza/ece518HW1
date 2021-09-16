@@ -33,7 +33,7 @@ print("---------------------------------------------")
 print("\n\n\n")
 
 
-cache = bytes('0' * (256*1024*1024), 'utf-8')
+cache = bytes(256*1024*1024)
 rates = []
 times = []
 
@@ -54,7 +54,7 @@ print("--------------Performance Validation of SHA-256--------------------------
 print('The average time it takes to process SHA-256 is {} ms. \nThis is an average rate of {} MB/s'.format(avg_time*1000, avg_rate))
 print("\n\n\n")
 
-cache = bytes('0' * (256*1024*1024), 'utf-8')
+cache = bytes(256*1024*1024)
 rates = []
 times = []
 
